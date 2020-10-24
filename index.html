@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <style>
+        .d-f {
+            margin-top: 90px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container ">
+        <div class="row">
+            <div class="clicker col s2 offset-s5 d-f">
+                <a class="btn-floating btn-large waves-effect waves-light red col s4 decrement"
+                    onclick="click.decrement()">
+                    <i class="material-icons">-</i>
+                </a>
+                <div class="input-field col s4">
+                    <input id="numbers" class="center-align num" type="text" style="font-size: 17px" value="0">
+                </div>
+                <a class="btn-floating btn-large waves-effect waves-light red col s4 increment"
+                    onclick="click.increment()">
+                    <i class="material-icons">+</i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
